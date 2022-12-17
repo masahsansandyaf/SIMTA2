@@ -111,26 +111,26 @@
                 <div class="form-group">
                     <div class="form-group">
                         <label for="name">ID REVISI</label>
-                        <input type="text" name="id_Revisi" class="form-control" id="id_Revisi" value="<?= $Revision['id_Revisi'] ?>" placeholder="ID" required>
+                        <input type="text" name="id_Revisi" class="form-control" id="id_Revisi"  placeholder="ID" required>
                     </div>
                     <div class="form-group">
                         <label for="name">NRP MAHASISWA</label>
-                        <input type="text" name="MHS_nrp" class="form-control" id="MHS_nrp" value="<?= $Revision['MHS_nrp'] ?>" placeholder="NRP" required>
+                        <input type="text" name="MHS_nrp" class="form-control" id="MHS_nrp"  placeholder="NRP" required>
                     </div>
                     <div class="form-group">
                         <label for="name">NIP DOSEN</label>
-                        <input type="text" name="dosen_nip" class="form-control" id="dosen_nip" value="<?= $Revision['dosen_nip'] ?>" placeholder="NIP" required>
+                        <input type="text" name="dosen_nip" class="form-control" id="dosen_nip"  placeholder="NIP" required>
                     </div>
                     <div class="form-group">
                         <label for="name">ID Tugas AKhir</label>
-                        <input type="text" name="TA_id" class="form-control" id="TA_id" value="<?= $Revision['TA_id'] ?>" placeholder="ID Tugas Akhir" required>
+                        <input type="text" name="TA_id" class="form-control" id="TA_id"  placeholder="ID Tugas Akhir" required>
                     </div>
                         <label for="name">Status</label>
-                        <input type="text" name="Status" class="form-control" id="Status" value="<?= $Revision['Status'] ?>" placeholder="Status" required>
+                        <input type="text" name="Status" class="form-control" id="Status"  placeholder="Status" required>
                     </div>
                     <div class="form-group">
                         <label for="name">Keterangan Revisi</label>
-                        <input type="text" name="Ket_revisi" class="form-control" id="Ket_revisi" value="<?= $Revision['Ket_revisi'] ?>" placeholder="Keterangan" required>
+                        <input type="text" name="Ket_revisi" class="form-control" id="Ket_revisi"  placeholder="Keterangan" required>
                     </div>
                 </div>
                 <div class="modal-footer">
