@@ -1,0 +1,162 @@
+CRITICAL - 2022-12-17 03:14:02 --> cors filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('dosen')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('dosen', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 03:24:09 --> Class "Config\App\Filters\Cors" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('dosen', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 05:19:10 --> Undefined variable $Mahasiswa
+in APPPATH\Views\Revisi\index.php on line 55.
+ 1 APPPATH\Views\Revisi\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Mahasiswa', 'APPPATH\\Views\\Revisi\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Revisi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Revisi/index', [], true)
+ 5 APPPATH\Controllers\RevisiController.php(24): view('Revisi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 05:20:32 --> Undefined variable $Mahasiswa
+in APPPATH\Views\Revisi\index.php on line 61.
+ 1 APPPATH\Views\Revisi\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Mahasiswa', 'APPPATH\\Views\\Revisi\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Revisi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Revisi/index', [], true)
+ 5 APPPATH\Controllers\RevisiController.php(24): view('Revisi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 05:20:35 --> Undefined variable $Mahasiswa
+in APPPATH\Views\Revisi\index.php on line 61.
+ 1 APPPATH\Views\Revisi\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Mahasiswa', 'APPPATH\\Views\\Revisi\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Revisi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Revisi/index', [], true)
+ 5 APPPATH\Controllers\RevisiController.php(24): view('Revisi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 05:20:36 --> Undefined variable $Mahasiswa
+in APPPATH\Views\Revisi\index.php on line 61.
+ 1 APPPATH\Views\Revisi\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Mahasiswa', 'APPPATH\\Views\\Revisi\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Revisi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Revisi/index', [], true)
+ 5 APPPATH\Controllers\RevisiController.php(24): view('Revisi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 05:22:16 --> Undefined variable $Mahasiswa
+in APPPATH\Views\Revisi\index.php on line 79.
+ 1 APPPATH\Views\Revisi\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Mahasiswa', 'APPPATH\\Views\\Revisi\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Revisi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Revisi/index', [], true)
+ 5 APPPATH\Controllers\RevisiController.php(24): view('Revisi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 09:09:58 --> Declaration of App\Controllers\DosenAPIController::update($nip) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\DosenAPIController.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-17 09:12:07 --> Undefined property: App\Controllers\DosenAPIController::$Dosen
+in APPPATH\Controllers\DosenAPIController.php on line 55.
+ 1 APPPATH\Controllers\DosenAPIController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DosenAPIController::$Dosen', 'APPPATH\\Controllers\\DosenAPIController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DosenAPIController->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenAPIController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 09:24:38 --> Call to a member function update() on null
+in APPPATH\Controllers\DosenAPIController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DosenAPIController->update('4')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenAPIController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 09:52:55 --> mysqli_sql_exception: Column 'MHS_nrp' cannot be null in C:\xampp\htdocs\simtang\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simtang\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simtang\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simtang\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simtang\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simtang\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simtang\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simtang\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simtang\app\Controllers\RevisionController.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simtang\system\CodeIgniter.php(927): App\Controllers\RevisionController->create()
+#9 C:\xampp\htdocs\simtang\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisionController))
+#10 C:\xampp\htdocs\simtang\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simtang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simtang\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-12-17 09:52:55 --> Column 'MHS_nrp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (:MHS_nrp:, :dosen_nip:, :TA_id:, :Status:, :Ket_revisi:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\RevisionController.php(31): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisionController->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisionController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 10:02:10 --> mysqli_sql_exception: Column 'MHS_nrp' cannot be null in C:\xampp\htdocs\simtang\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simtang\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simtang\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simtang\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simtang\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simtang\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simtang\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simtang\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simtang\app\Controllers\RevisionController.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simtang\system\CodeIgniter.php(927): App\Controllers\RevisionController->create()
+#9 C:\xampp\htdocs\simtang\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisionController))
+#10 C:\xampp\htdocs\simtang\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simtang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simtang\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-12-17 10:02:10 --> Column 'MHS_nrp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, \'perlu revisi\', \'BAB II\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, \'perlu revisi\', \'BAB II\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (NULL, NULL, NULL, \'perlu revisi\', \'BAB II\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `revision` (`MHS_nrp`, `dosen_nip`, `TA_id`, `Status`, `Ket_revisi`) VALUES (:MHS_nrp:, :dosen_nip:, :TA_id:, :Status:, :Ket_revisi:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\RevisionController.php(31): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisionController->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisionController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 10:07:32 --> Call to a member function where() on null
+in APPPATH\Controllers\RevisionController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RevisionController->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RevisionController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -41,7 +41,7 @@ class DosenAPIController extends ResourceController
     public function show($id = null)
     {
         $model = new dosenmodel();
-        $data = $model->where('nip', $id)->first();
+        $data = $model->getWhere(['nip'=> $id])->getResult();
         if ($data) {
             return $this->respond($data);
         } else {
@@ -52,23 +52,63 @@ class DosenAPIController extends ResourceController
     public function update($id = null)
     {
         $model = new dosenmodel();
-        $id = $this->request->getVar('nip');
-        $data = [
-            'name' => $this->request->getVar('name'),
-            'email' => $this->request->getVar('email'),
-            'phone' => $this->request->getVar('phone'),
-            'address' => $this->request->getVar('address'),
-        ];
+        $json = $this->request->getJSON();
+        if($json){ 
+            $data = [
+                'name' => $json->name,
+                'email' => $json->email,
+                'phone' => $json->phone,
+                'address'=> $json->address,
+            ];
+        }else{
+            $input = $this->request->getRawInput();
+            $data = [
+                'name' => $this->request->getPost['name'],
+                'email' => $this->request->getPost['email'],
+                'phone' => $this->request->getPost['phone'],
+                'address'=> $this->request->getPost['address']
+            ];
+        }
         $model->update($id, $data);
         $response = [
-            'status'   => 200,
-            'error'    => null,
-            'messages' => [
-                'success' => 'Data produk berhasil diubah.'
-            ]
+            'status' => 200,
+            'error' => null,
+            'messages' => ['Updated successfully']
         ];
         return $this->respond($response);
     }
+    // public function edit($nip)
+    // {
+        
+    //     $this->Dosen->update($nip, [
+    //             'name' => $this->request->getPost('name'),
+    //             'email' => $this->request->getPost('email'),
+    //             'phone' => $this->request->getPost('phone'),
+    //             'address' => $this->request->getPost('address'),
+    //         ]);
+
+    //         return redirect('Dosen')->with('success', 'Data Updated Successfully');
+    // }
+    // public function update($id = null)
+    // {
+    //     $model = new dosenmodel();
+    //     $id = $this->request->getVar('nip');
+    //     $data = [
+    //         'name' => $this->request->getVar('name'),
+    //         'email' => $this->request->getVar('email'),
+    //         'phone' => $this->request->getVar('phone'),
+    //         'address' => $this->request->getVar('address'),
+    //     ];
+    //     $model->update($id, $data);
+    //     $response = [
+    //         'status'   => 200,
+    //         'error'    => null,
+    //         'messages' => [
+    //             'success' => 'Data produk berhasil diubah.'
+    //         ]
+    //     ];
+    //     return $this->respond($response);
+    // }
     // delete
     public function delete($id = null)
     {

@@ -10,7 +10,7 @@
     <hr class="sidebar-divider my-0">
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/home">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
     </li>
@@ -33,7 +33,7 @@
         <span>TugasAkhir</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="/revision">
         <i class="fas fa-fw fa-table"></i>
         <span>Revision</span></a>
     </li>

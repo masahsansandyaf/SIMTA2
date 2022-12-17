@@ -48,8 +48,9 @@ $routes->resource('dosen');
 //route API
 $routes->get('/', 'Home::index');
 $routes->get('/API/dosen', 'DosenAPIController::index');
-// $routes->post('/API/dosen', 'DosenAPIController::create');
-// $routes->put('/API/dosen/update/{id}', 'DosenAPIController::update/$1');
+$routes->post('/API/dosen', 'DosenAPIController::create');
+$routes->put('/API/dosen/(:segment)', 'DosenAPIController::update/$1');
+$routes->get('/API/dosen/(:segment)', 'DosenAPIController::show/$1');
 $routes->resource('dosen');
 
 //ROute CRUD Mahasiswa
@@ -58,7 +59,20 @@ $routes->get ('/mahasiswa', 'MahasiswaController::index');
 $routes->add('/mahasiswa', 'MahasiswaController::create');
 $routes->add('/mahasiswa/edit/(:segment)', 'MahasiswaController::edit/$1');
 
+//ROute CRUD Revisi
+$routes->get('/', 'Home::index');
+$routes->get ('/revision', 'RevisiController::index');
+$routes->post('/revision', 'RevisiController::create');
+$routes->add('/revision/edit/(:segment)', 'MahasiswaController::edit/$1');
+$routes->resource('revision');
 
+//Route API Revision
+$routes->get('/', 'Home::index');
+$routes->get ('/API/revision', 'RevisionController::index');
+$routes->post('/API/revision', 'RevisionController::create');
+$routes->put('/API/revision/(:segment)', 'RevisionController::update/$1');
+$routes->delete('/API/revision/(:segment)', 'RevisionController::delete/$1');
+$routes->get('/API/revision/(:segment)', 'RevisionController::show/$1');
 
 // $routes->group('', ['filter' => 'login'], function($routes){
 //     $routes->get('dashboard', 'Home::dashboard');

@@ -4,17 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Mahasiswa extends Model
+class Revision extends Model
 {
     protected $DBGroup          = 'default';
     protected $table            = 'revision';
-    protected $primaryKey       = 'id_TA';
+    protected $primaryKey       = 'id_Revisi';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nrp','nip','Judul_TA','laboratorium'];
+    protected $allowedFields    = ['MHS_nrp','dosen_nip','TA_id','Status','Ket_revisi'];
 
     // Dates
     protected $useTimestamps = false;
